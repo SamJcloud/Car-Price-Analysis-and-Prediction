@@ -1,8 +1,15 @@
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.DS_Store
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+
+# Ignore database
+*.db
+
+# Ignore raw data
+*.csv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
